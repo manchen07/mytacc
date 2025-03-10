@@ -15,4 +15,4 @@ module load tacc-apptainer
 echo "running the SRPB container:"
 apptainer run docker://manchen07/srpb:v0
 
-ibrun SR-simulation.R
+ibrun RMPISNOW < SR-simulation.R
